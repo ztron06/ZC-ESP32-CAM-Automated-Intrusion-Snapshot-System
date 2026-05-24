@@ -240,11 +240,13 @@ esp_err_t err = esp_camera_init(&config);
 This initializes the ESP32 camera hardware using the selected camera settings.
 
 Snapshot Capture
+
 camera_fb_t * fb = esp_camera_fb_get();
 
 This captures an image frame from the camera module.
 
 Event Logging
+
 Serial.println("Snapshot captured successfully");
 
 This logs monitoring activity through the serial monitor.
@@ -271,8 +273,8 @@ Serial Monitor Shows Random Symbols
 Fix
 
 Set the baud rate to:
-
 115200
+
 Challenges Encountered
 
 One challenge during the project was configuring the ESP32 board correctly in the Arduino IDE. Selecting the wrong board or COM port caused upload and camera initialization issues.
@@ -285,21 +287,25 @@ Since the project uses built-in ESP32 camera libraries and minimal hardware, tro
 Screenshots and Photos 
 
 ESP32-CAM hardware setup
+
 <img width="1404" height="1599" alt="WhatsApp Image 2026-05-23 at 11 14 03 PM" src="https://github.com/user-attachments/assets/a1436992-d628-4be7-be2e-a4a5bd70fa0f" />
 
 
 Arduino IDE with the project code
+
 <img width="1125" height="894" alt="image" src="https://github.com/user-attachments/assets/54ef3175-e6ec-4dd2-bb84-5a9391848d45" />
 
 
 Successful upload screen
+
 <img width="1140" height="352" alt="image" src="https://github.com/user-attachments/assets/4267acbd-549b-478d-a629-a8b0638f6ba5" />
 
 
 Serial monitor showing monitoring logs
+
 <img width="1155" height="1005" alt="Screenshot 2026-05-23 223147" src="https://github.com/user-attachments/assets/51085a0f-814a-4998-a3d3-da7da2bf10ae" />
 
-ESP32-CAM connected to laptop
+
 
 # Summary
 
