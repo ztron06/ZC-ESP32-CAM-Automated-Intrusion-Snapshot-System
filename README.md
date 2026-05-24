@@ -305,6 +305,8 @@ Serial monitor showing monitoring logs
 
 <img width="1155" height="1005" alt="Screenshot 2026-05-23 223147" src="https://github.com/user-attachments/assets/51085a0f-814a-4998-a3d3-da7da2bf10ae" />
 
+<img width="1125" height="894" alt="Screenshot 2026-05-23 231130" src="https://github.com/user-attachments/assets/9c974664-378b-44d9-b126-91436dc070c7" />
+
 
 
 # Summary
